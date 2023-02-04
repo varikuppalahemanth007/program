@@ -1,0 +1,102 @@
+div.header{
+    background-color: #f7f2b4;
+    height: 90px;
+}
+div.main{
+    background-color: #bdf7f1;
+    height: 1000px;
+}
+li {
+    list-style: none; 
+    float: left;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-logo { 
+    float: left;
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header-list li{ float: left;
+    padding: 33px 20px;
+}
+li {
+    list-style: none;
+}
+.footer {
+    background-color: #2f5167;
+    height: 120px;
+    color: #fff;
+    padding: 40px;
+}
+.footer-logo{
+    font-size: smaller;
+    float: left;
+}
+.footer-list{
+    float: left;
+}
+.footer-list li{
+    padding-bottom:20px;
+}
+.main {
+    /* Remove CSS for background-color */
+    background-color: none;
+    /* Remove CSS for height */
+    height: none;
+    padding: 100px 80px;
+}
+.copy-container h1{
+    font-size: 140px;
+}
+.copy-container h2{
+    font-size: 60px;
+    border-bottom: 2px solid #dee7ec;
+}
+.copy-container span{
+    color: #ff4a4a;
+}
+.contents{ 
+    height:100px;
+}
+.contents-item{
+    float: left;
+}
+.contents-item img{
+    height: 150px;
+
+}
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    /* Change the font-size to 28px */
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    /* Change the padding-bottom property to 15px */
+    /* Change the margin-bottom property to 50px */
+}
+.contents-item p{
+    font-size:24px ;
+    padding-left: 50px;
+    margin-top:20px;
+}
+.contact-form{
+    padding-top: 100px;
+}
+input,textarea{
+    width:400px;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:5px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+}
+.contact-submit{
+    background-color: #dee7ec;
+    color: #889eab;
+}
